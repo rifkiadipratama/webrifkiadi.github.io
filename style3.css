@@ -2,7 +2,7 @@
     
   }
   body {
-    background-image: url("/images/psychedelic.jpg");
+    background-image: url("./images/psychedelic.jpg");
     background-size: 100%;
     margin: 0px;
   }
