@@ -1,0 +1,170 @@
+@media screen and (max-width: 480px) {
+    
+  }
+  body {
+    background-image: url("/images/psychedelic.jpg");
+    background-size: 100%;
+    margin: 0px;
+  }
+  article{
+    position: absolute;
+    background: whitesmoke;
+    margin-top: 100px;
+    width: 800px;
+    height: 400px;
+    margin-left: 70px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  h1{
+    position: absolute;
+    margin-left: 50px;
+    font-size: 50px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  p{
+    margin-top: 70px;
+    margin-left: 50px;
+  }
+  .p2{
+    position: absolute;
+    margin-top: -5px;
+  }
+  .form {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .form >div{
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+  }  
+#username {
+    height: 35px;
+    width: 230px;
+    align-items: center;
+   
+}
+.Email, .password {
+    align-items: center;
+}
+#password {
+    height: 35px;
+    width: 230px;
+}
+
+.form {
+  position: fixed;
+  width: 300px;
+  margin-top: 100px;
+  margin-left: 870px;
+  padding: 26px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.form label[for="username"]{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.form label[for="password"]{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.form input[type="text"],
+.form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 1px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #333A73;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #3e8e41;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.newlogin>.signin{
+  font-size: 15px;
+  margin-right: -45px;
+  margin-top: 13px;
+  margin-left: 55px;
+  color: black;
+  padding-top: 0px;
+}
+
+.newlogin>.daftar{
+  font-size: 15px;
+  margin: auto;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.newlogin>.daftar2{
+  font-size: 18px;
+  margin: auto;
+  color: rgb(0, 143, 209);
+}
+
+.logo{
+  padding-left: 45px;
+  margin-top: -10px;
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+  color: blue;
+}
+
+.checkbox{
+  color: grey;
+}
+
+.header{
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: blue;
+}
+
+div.astronout{
+  position: absolute;
+  margin-left: 350px;
+  margin-bottom: 400px;
+  margin-top: 0%;
+}
